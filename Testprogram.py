@@ -51,3 +51,9 @@ heappush(fruits, "apple")
 heappush(fruits, "banana")
 
 print(fruits)
+
+#sixth example
+from heapq import heappop
+print("\nSixth Example")
+print(heappop(fruits))
+print(fruits)
