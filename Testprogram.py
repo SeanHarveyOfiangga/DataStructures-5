@@ -41,3 +41,13 @@ lifo.append("3rd")
 print(lifo.pop())
 print(lifo.pop())
 print(lifo.pop())
+
+#fifth example
+from heapq import heappush
+print("\nFifth Example")
+fruits = []
+heappush(fruits, "orange")
+heappush(fruits, "apple")
+heappush(fruits, "banana")
+
+print(fruits)
