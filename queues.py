@@ -1,6 +1,7 @@
 # queues.py
 
 from collections import deque
+from heapq import heappop, heappush
 
 class Queue:
     def __init__(self, *elements):
@@ -18,7 +19,7 @@ class Queue:
 
     def dequeue(self):
         return self._elements.popleft()
-        
+
 class Stack(Queue):
     def dequeue(self):
         return self._elements.pop()
