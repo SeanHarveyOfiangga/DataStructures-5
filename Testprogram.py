@@ -81,3 +81,9 @@ messages.enqueue_with_priority(IMPORTANT, "Hazard lights turned on")
 
 print("\nEighth Example")
 print(messages.dequeue())
+
+#ninth example
+print("\nNinth Example")
+print(messages.dequeue())
+print(messages.dequeue())
+print(messages.dequeue())
